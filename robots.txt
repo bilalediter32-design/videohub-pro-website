@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://bilalediter32-design.github.io/videohub-pro-website/sitemap.xml
