@@ -15,14 +15,12 @@
 <link rel="canonical" href="https://bilalediter32-design.github.io/videohub-pro-website/">
 <link rel="icon" href="assets/icon-192.png">
 
-<!-- Open Graph / Facebook / WhatsApp -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="VideoHub Pro – Smart Media Center">
 <meta property="og:description" content="Explore VideoHub Pro features, personal media management, playback and customization.">
 <meta property="og:url" content="https://bilalediter32-design.github.io/videohub-pro-website/">
 <meta property="og:image" content="https://bilalediter32-design.github.io/videohub-pro-website/assets/icon-512.png">
 
-<!-- Twitter -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VideoHub Pro">
 <meta name="twitter:description" content="Fast, HD & Smart Media Center.">
@@ -41,7 +39,6 @@
 }
 
 *{box-sizing:border-box}
-
 html{scroll-behavior:smooth}
 
 body{
@@ -54,10 +51,7 @@ font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif
 a{color:var(--gold);text-decoration:none}
 a:hover{text-decoration:underline}
 
-.wrap{
-width:min(1100px,92%);
-margin:auto
-}
+.wrap{width:min(1100px,92%);margin:auto}
 
 .top{
 position:sticky;
@@ -85,10 +79,7 @@ font-weight:800;
 font-size:1.12rem
 }
 
-.brand img{
-width:42px;
-height:42px
-}
+.brand img{width:42px;height:42px}
 
 .links{
 display:flex;
@@ -166,10 +157,7 @@ font-size:clamp(1.8rem,4vw,2.5rem);
 margin:0 0 10px
 }
 
-h3{
-margin:0 0 8px;
-color:#fff
-}
+h3{margin:22px 0 8px;color:#fff}
 
 .lead{
 color:var(--muted);
@@ -264,6 +252,7 @@ flex-direction:column
 
 <header class="top">
 <nav class="wrap">
+
 <a class="brand" href="#home">
 <img src="assets/icon-192.png" alt="VideoHub Pro icon">
 VideoHub Pro
@@ -274,8 +263,10 @@ VideoHub Pro
 <a href="#about">About</a>
 <a href="#help">Help</a>
 <a href="#faq">FAQ</a>
+<a href="#privacy">Privacy</a>
 <a href="#contact">Contact</a>
 </div>
+
 </nav>
 </header>
 
@@ -438,26 +429,15 @@ This website is an informational landing page. It does not yet provide a public 
 <p class="muted">Some cached app-shell features may work offline after a successful HTTPS visit. Online content and external services still require connectivity.</p>
 </details>
 
-</div>
-</section>
+<details>
+<summary>Where is my personal media library stored?</summary>
+<p class="muted">The intended design is local-first storage on the user's device or browser. Actual storage behavior depends on the implemented app version and browser support.</p>
+</details>
 
-<section id="contact">
-<div class="wrap">
-
-<h2>Contact & feedback</h2>
-
-<p class="lead">
-Have a question or suggestion? Official support contact details will be published here before public launch.
-</p>
-
-<div class="contact">
-<span class="pill">Support email: to be announced</span>
-<span class="pill">Website: to be announced</span>
-</div>
-
-<p class="small">
-Do not send passwords, payment details or private account information through public feedback channels.
-</p>
+<details>
+<summary>Does VideoHub Pro offer cloud backup?</summary>
+<p class="muted">Cloud backup is not currently presented as an available feature. It may be considered as an optional future feature.</p>
+</details>
 
 </div>
 </section>
@@ -465,14 +445,59 @@ Do not send passwords, payment details or private account information through pu
 <section id="privacy">
 <div class="wrap">
 
-<h2>Privacy policy — draft</h2>
+<h2>Privacy Policy</h2>
 
-<p class="muted">
-The current PWA starter stores the personal media library locally in the browser. This landing page does not include an account system, analytics integration or contact form. Hosting providers may process standard server logs. Before launch, the project owner must verify the actual hosting, analytics, advertising, crash-reporting and app data practices and update this notice accordingly.
+<p class="lead">
+Your privacy matters. VideoHub Pro is designed around local-first personal media management.
 </p>
 
+<h3>1. Personal Media Storage</h3>
 <p class="muted">
-Users should avoid storing sensitive files on shared devices. Clearing browser site data may remove locally stored media. For privacy questions, publish a monitored contact address before release.
+VideoHub Pro is intended to keep your personal media library and related information on your own device or in browser storage. The planned default architecture does not require uploading your personal media to a VideoHub Pro online server. Actual behavior depends on the app version and features in use.
+</p>
+
+<h3>2. Local Storage and Data Control</h3>
+<p class="muted">
+Information stored locally may remain on your device until you delete it or clear your browser data. Browser storage availability and retention depend on your device and browser. Keep separate backups of important original files.
+</p>
+
+<h3>3. Optional Cloud Backup</h3>
+<p class="muted">
+Optional cloud backup may be considered as a future feature. If introduced, its operation, data handling and privacy terms will be explained before users enable it.
+</p>
+
+<h3>4. Internet and Third-Party Services</h3>
+<p class="muted">
+External platforms and websites opened through VideoHub Pro operate under their own privacy policies and terms. Their data practices are not controlled by VideoHub Pro.
+</p>
+
+<h3>5. Website Hosting</h3>
+<p class="muted">
+This website is hosted using GitHub Pages. Hosting infrastructure may process technical information such as server logs and connection information according to the provider's policies.
+</p>
+
+<h3>6. Analytics and Advertising</h3>
+<p class="muted">
+This website currently does not declare an analytics or advertising integration. If analytics or advertising services are introduced, this policy will be updated to explain the relevant data practices.
+</p>
+
+<h3>7. Children's Privacy</h3>
+<p class="muted">
+VideoHub Pro is not intended to collect personal information from children. Users should not submit sensitive personal information through public feedback channels.
+</p>
+
+<h3>8. Policy Updates</h3>
+<p class="muted">
+This Privacy Policy may be updated when app features or data practices change. The latest version will be published on this page.
+</p>
+
+<h3>9. Contact</h3>
+<p class="muted">
+For privacy questions, please use the official support contact details once they are published on our website.
+</p>
+
+<p class="small">
+Last updated: November 5, 2026
 </p>
 
 </div>
@@ -481,10 +506,75 @@ Users should avoid storing sensitive files on shared devices. Clearing browser s
 <section id="terms">
 <div class="wrap">
 
-<h2>Terms of use — draft</h2>
+<h2>Terms of Use</h2>
 
+<p class="lead">
+Please read these terms before using VideoHub Pro.
+</p>
+
+<h3>1. Lawful Use</h3>
 <p class="muted">
-Use VideoHub Pro lawfully. You are responsible for ensuring you have the rights and permissions needed for any media you add, play or download. Do not use the app to infringe copyright, bypass access controls, or violate third-party service terms. The app is provided as-is; availability and compatibility may vary by device, browser and source. These draft terms require review and completion before public release.
+You agree to use VideoHub Pro only for lawful purposes and in accordance with applicable laws and third-party service terms.
+</p>
+
+<h3>2. Media Ownership and Permissions</h3>
+<p class="muted">
+You are responsible for ensuring that you own or have permission to access, play, store or download any media you use with the app.
+</p>
+
+<h3>3. Third-Party Platforms</h3>
+<p class="muted">
+VideoHub Pro is an independent project and is not affiliated with YouTube, Facebook, Instagram, TikTok, X or other third-party platforms. Those services are governed by their own terms and policies.
+</p>
+
+<h3>4. Downloads and Restrictions</h3>
+<p class="muted">
+VideoHub Pro does not authorize bypassing DRM, paywalls, login controls or other technical restrictions. Download functionality depends on source permissions, technical support and applicable rules.
+</p>
+
+<h3>5. Local Data and Backups</h3>
+<p class="muted">
+Users are responsible for keeping separate copies of important media files. Local browser storage may be cleared or become unavailable due to device, browser or storage limitations.
+</p>
+
+<h3>6. Availability and Compatibility</h3>
+<p class="muted">
+Features, availability and compatibility may vary depending on the device, browser, operating system and media source. No fixed download speed or uninterrupted availability is guaranteed.
+</p>
+
+<h3>7. Changes to the Service</h3>
+<p class="muted">
+Features and these terms may change as VideoHub Pro develops. Updated terms will be published on this website.
+</p>
+
+<h3>8. Contact</h3>
+<p class="muted">
+Official support contact details will be published here when available.
+</p>
+
+<p class="small">
+Last updated: November 5, 2026
+</p>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap">
+
+<h2>Contact & Feedback</h2>
+
+<p class="lead">
+Have a question or suggestion? Official support contact details will be published here before public launch.
+</p>
+
+<div class="contact">
+<span class="pill">Support email: to be announced</span>
+<span class="pill">Website: https://bilalediter32-design.github.io/videohub-pro-website/</span>
+</div>
+
+<p class="small">
+Do not send passwords, payment details or private account information through public feedback channels.
 </p>
 
 </div>
